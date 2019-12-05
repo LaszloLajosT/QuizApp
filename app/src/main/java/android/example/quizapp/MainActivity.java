@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         checkQuestion_03();
         checkQuestion_04();
 
-        /**
+        /*
          * Calculate the Score system:
          * Good answers - wrong answers.
          * Score point cannot be less than zero
@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
 
         //Show the result for the user:
         Toast.makeText(this, "Your score is: " + score, Toast.LENGTH_LONG).show();
-
 
         //Test the score system
         //Toast.makeText(this, "Good answer: " + goodAnswer + "\n Wrong answer: "+wrongAnswer + "\nYour score is: " + score, Toast.LENGTH_LONG).show();
@@ -52,12 +51,12 @@ public class MainActivity extends AppCompatActivity {
      * If an answer is correct then increase good answer point by 1
      * If an answer is wrong then increase wrong answer point by 1
      */
-    public void checkQuestion_01(){
+    private void checkQuestion_01(){
         //User gives his/her answer(s) for question_01
-        CheckBox question_01_checkbox_01 = (CheckBox) findViewById(R.id.question_01_checkbox_01);
-        CheckBox question_01_checkbox_02 = (CheckBox) findViewById(R.id.question_01_checkbox_02);
-        CheckBox question_01_checkbox_03 = (CheckBox) findViewById(R.id.question_01_checkbox_03);
-        CheckBox question_01_checkbox_04 = (CheckBox) findViewById(R.id.question_01_checkbox_04);
+        CheckBox question_01_checkbox_01 = findViewById(R.id.question_01_checkbox_01);
+        CheckBox question_01_checkbox_02 = findViewById(R.id.question_01_checkbox_02);
+        CheckBox question_01_checkbox_03 = findViewById(R.id.question_01_checkbox_03);
+        CheckBox question_01_checkbox_04 = findViewById(R.id.question_01_checkbox_04);
 
         if (question_01_checkbox_01.isChecked())
             wrongAnswer++;
@@ -74,12 +73,12 @@ public class MainActivity extends AppCompatActivity {
      * If an answer is correct then increase good answer point by 1
      * If an answer is wrong then increase wrong answer point by 1
      */
-    public void checkQuestion_02(){
+    private void checkQuestion_02(){
         //User gives his/her answer(s) for question_02
-        CheckBox question_02_checkbox_01 = (CheckBox) findViewById(R.id.question_02_checkbox_01);
-        CheckBox question_02_checkbox_02 = (CheckBox) findViewById(R.id.question_02_checkbox_02);
-        CheckBox question_02_checkbox_03 = (CheckBox) findViewById(R.id.question_02_checkbox_03);
-        CheckBox question_02_checkbox_04 = (CheckBox) findViewById(R.id.question_02_checkbox_04);
+        CheckBox question_02_checkbox_01 = findViewById(R.id.question_02_checkbox_01);
+        CheckBox question_02_checkbox_02 = findViewById(R.id.question_02_checkbox_02);
+        CheckBox question_02_checkbox_03 = findViewById(R.id.question_02_checkbox_03);
+        CheckBox question_02_checkbox_04 = findViewById(R.id.question_02_checkbox_04);
 
         if (question_02_checkbox_01.isChecked())
             wrongAnswer++;
@@ -96,12 +95,12 @@ public class MainActivity extends AppCompatActivity {
      * If the answer is correct then increase good answer point by 1
      * If the answer is wrong then increase wrong answer point by 1
      */
-    public void checkQuestion_03(){
+    private void checkQuestion_03(){
         ////User gives his/her answer for question_03
-        RadioButton question_03_radiobutton_01 = (RadioButton) findViewById(R.id.question_03_radio_button_01);
-        RadioButton question_03_radiobutton_02 = (RadioButton) findViewById(R.id.question_03_radio_button_02);
-        RadioButton question_03_radiobutton_03 = (RadioButton) findViewById(R.id.question_03_radio_button_03);
-        RadioButton question_03_radiobutton_04 = (RadioButton) findViewById(R.id.question_03_radio_button_04);
+        RadioButton question_03_radiobutton_01 = findViewById(R.id.question_03_radio_button_01);
+        RadioButton question_03_radiobutton_02 = findViewById(R.id.question_03_radio_button_02);
+        RadioButton question_03_radiobutton_03 = findViewById(R.id.question_03_radio_button_03);
+        RadioButton question_03_radiobutton_04 = findViewById(R.id.question_03_radio_button_04);
 
         if (question_03_radiobutton_01.isChecked())
             wrongAnswer++;
@@ -118,9 +117,9 @@ public class MainActivity extends AppCompatActivity {
      * If the answer is correct then increase good answer point by 1
      * If the answer is wrong then increase wrong answer point by 1
      */
-    public void checkQuestion_04() {
+    private void checkQuestion_04() {
         //User gives his/her answer for question_04
-        EditText answerForQuestion_04 = (EditText) findViewById(R.id.question_04_edittext_01);
+        EditText answerForQuestion_04 = findViewById(R.id.question_04_edittext_01);
 
         //save the user's answer to a variable
         String userAnswer = answerForQuestion_04.getText().toString();
@@ -128,8 +127,8 @@ public class MainActivity extends AppCompatActivity {
         //save the correct answer from strings.xml
         String correctAnswer = getString(R.string.question_04_answer);
 
-        /**
-         * compare the two strings. If the answer is correct -> increase good answer point by 1
+        /*
+         * compare two strings. If the answer is correct -> increase good answer point by 1
          * otherwise, increase the wrong answer point by 1
          */
         if ( userAnswer.equalsIgnoreCase(correctAnswer)) {

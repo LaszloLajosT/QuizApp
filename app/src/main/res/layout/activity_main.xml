@@ -19,39 +19,23 @@
 
             <CheckBox
                 android:id="@+id/question_01_checkbox_01"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:paddingLeft="24dp"
-                android:text="@string/question_01_checkbox_01"
-                android:textSize="16sp" />
+                style="@style/CheckBoxRadioButtonTextStyle"
+                android:text="@string/question_01_checkbox_01" />
 
             <CheckBox
                 android:id="@+id/question_01_checkbox_02"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:paddingLeft="24dp"
-                android:text="@string/question_01_checkbox_02"
-                android:textSize="16sp" />
+                style="@style/CheckBoxRadioButtonTextStyle"
+                android:text="@string/question_01_checkbox_02" />
 
             <CheckBox
                 android:id="@+id/question_01_checkbox_03"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:paddingLeft="24dp"
-                android:text="@string/question_01_checkbox_03"
-                android:textSize="16sp" />
+                style="@style/CheckBoxRadioButtonTextStyle"
+                android:text="@string/question_01_checkbox_03" />
 
             <CheckBox
                 android:id="@+id/question_01_checkbox_04"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:paddingLeft="24dp"
-                android:text="@string/question_01_checkbox_04"
-                android:textSize="16sp" />
+                style="@style/CheckBoxRadioButtonTextStyle"
+                android:text="@string/question_01_checkbox_04" />
 
         <TextView
             style="@style/HeaderTextStyle"
@@ -59,41 +43,23 @@
 
             <CheckBox
                 android:id="@+id/question_02_checkbox_01"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:paddingLeft="24dp"
-                android:text="@string/question_02_checkbox_01"
-                android:textSize="16sp" />
+                style="@style/CheckBoxRadioButtonTextStyle"
+                android:text="@string/question_02_checkbox_01" />
 
             <CheckBox
                 android:id="@+id/question_02_checkbox_02"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:paddingLeft="24dp"
-                android:text="@string/question_02_checkbox_02"
-                android:textSize="16sp" />
+                style="@style/CheckBoxRadioButtonTextStyle"
+                android:text="@string/question_02_checkbox_02" />
 
             <CheckBox
                 android:id="@+id/question_02_checkbox_03"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:paddingLeft="24dp"
-                android:text="@string/question_02_checkbox_03"
-                android:textSize="16sp" />
+                style="@style/CheckBoxRadioButtonTextStyle"
+                android:text="@string/question_02_checkbox_03" />
 
             <CheckBox
                 android:id="@+id/question_02_checkbox_04"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:paddingLeft="24dp"
-                android:text="@string/question_02_checkbox_04"
-                android:textSize="16sp" />
-
-
+                style="@style/CheckBoxRadioButtonTextStyle"
+                android:text="@string/question_02_checkbox_04" />
 
         <TextView
             style="@style/HeaderTextStyle"
@@ -106,36 +72,20 @@
                 android:orientation="vertical">
                 <RadioButton
                     android:id="@+id/question_03_radio_button_01"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
-                    android:paddingLeft="24dp"
-                    android:text="@string/question_03_radio_button_01"
-                    android:textSize="16sp" />
+                    style="@style/CheckBoxRadioButtonTextStyle"
+                    android:text="@string/question_03_radio_button_01" />
                 <RadioButton
                     android:id="@+id/question_03_radio_button_02"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
-                    android:paddingLeft="24dp"
-                    android:text="@string/question_03_radio_button_02"
-                    android:textSize="16sp" />
+                    style="@style/CheckBoxRadioButtonTextStyle"
+                    android:text="@string/question_03_radio_button_02" />
                 <RadioButton
                     android:id="@+id/question_03_radio_button_03"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
-                    android:paddingLeft="24dp"
-                    android:text="@string/question_03_radio_button_03"
-                    android:textSize="16sp" />
+                    style="@style/CheckBoxRadioButtonTextStyle"
+                    android:text="@string/question_03_radio_button_03" />
                 <RadioButton
                     android:id="@+id/question_03_radio_button_04"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
-                    android:paddingLeft="24dp"
-                    android:text="@string/question_03_radio_button_04"
-                    android:textSize="16sp" />
+                    style="@style/CheckBoxRadioButtonTextStyle"
+                    android:text="@string/question_03_radio_button_04" />
             </RadioGroup>
 
         <TextView
