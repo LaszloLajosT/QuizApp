@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <string name="question_01">What states are not in the US?</string>
+    <string name="question_02">Which of the following countries does NOT share a border with Brazil?</string>
+    <string name="question_03"> What is the capital of Australia?  </string>
+    <string name="question_04">Which is the World second longest river?</string>
+    <string name="question_05"> Question 5  </string>
+    <string name="question_06"> Question 6  </string>
+    <string name="question_07"> Question 7  </string>
+    <string name="question_08"> Question 8  </string>
+    <string name="question_09"> Question 9  </string>
+    <string name="question_10"> Question 10  </string>
+
+    <string name="question_01_checkbox_01">Montana</string>
+    <string name="question_01_checkbox_02">Maine</string>
+    <string name="question_01_checkbox_03">Alberta</string>
+    <string name="question_01_checkbox_04">British Columbia</string>
+
+    <string name="question_02_checkbox_01">Peru</string>
+    <string name="question_02_checkbox_02">Chile</string>
+    <string name="question_02_checkbox_03">Argentina</string>
+    <string name="question_02_checkbox_04">Ecuador</string>
+
+    <string name="question_03_radio_button_01">Sydney</string>
+    <string name="question_03_radio_button_02">Canberra</string>
+    <string name="question_03_radio_button_03">Melbourne</string>
+    <string name="question_03_radio_button_04">Adelaire</string>
+
+    <string name="question_04_edittext_01_hint">Type your answer here, please...</string>
+    <string name="question_04_answer">Amazon</string>
+
+    <string name="submit">Submit</string>
+
+</resources>
