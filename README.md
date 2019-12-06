@@ -28,3 +28,5 @@ You'll want to build this project in steps.
 2. Second, you'll want to write code that links the layout to the activity. For step 3, you'll want variables that refer to each of the quiz answers.
 
 3. Finally, write the code for the button which checks your answers. This code should run through each question in the app, record whether the user got the question right, and then display the quiz results in a Toast message.
+
+![GitHub Logo](/screenshot.png)
